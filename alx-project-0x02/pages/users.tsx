@@ -9,7 +9,7 @@ interface UsersPageProps {
 }
 
 const UsersPage: React.FC<UsersPageProps> = ({ users }) => {
-  return (
+  return ("getStaticProps()"
     <>
       {/* <Header /> */}
       <div className="p-6 space-y-4">
